@@ -23,10 +23,10 @@ const Heroes = ({ hero, hereosToCard }) => {
                 <div className='d-grid gap-2 col-6 mx-auto'>
                     <button
                         onClick={() => hereosToCard(hero)}
-                        className='btn btn-outline-primary'
+                        className='btn  btn-outline-primary'
                         type='button'
                     >
-                        <i className='fas fa-search-dollar'>Cost</i>
+                        <i class="fas fa-euro-sign">Expense</i>
                     </button>
                 </div>
             </div>

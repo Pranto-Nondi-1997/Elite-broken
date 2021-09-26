@@ -1,7 +1,10 @@
 import React from 'react'
 
 const SideCard = ({ heroesCard }) => {
+
     const totalCost = heroesCard
+
+
         .map((hero) => hero.sallary)
         .reduce((a, c) => a + c, 0)
     const filteredImage = heroesCard
